@@ -1,0 +1,11 @@
+version: '3'
+services:
+  jupyter:
+    build:
+      context: ./jupyter
+    volumes:
+      - ./code/:/home/jovyan/work
+    ports:
+      - 8888:8888
+    environment:
+      - JUPYTER_PASS=password
