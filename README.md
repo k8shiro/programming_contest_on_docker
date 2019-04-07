@@ -1,3 +1,6 @@
+# プログラミングコンテスト実行環境 and コード
+jupyter-notebookをDocker上に立ち上げて利用
+
 # jupyter-notebook環境立ち上げセット
 
 - port: 8888
